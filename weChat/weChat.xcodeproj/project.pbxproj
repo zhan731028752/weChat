@@ -13,6 +13,7 @@
 		847F2AA51DF148FE00304338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847F2AA31DF148FE00304338 /* Main.storyboard */; };
 		847F2AA71DF148FE00304338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847F2AA61DF148FE00304338 /* Assets.xcassets */; };
 		847F2AAA1DF148FE00304338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847F2AA81DF148FE00304338 /* LaunchScreen.storyboard */; };
+		847F2AB31DF1495F00304338 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F2AB21DF1495F00304338 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		847F2AA61DF148FE00304338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847F2AA91DF148FE00304338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847F2AAB1DF148FE00304338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847F2AB11DF1495F00304338 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		847F2AB21DF1495F00304338 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		847F2A8E1DF148FE00304338 = {
 			isa = PBXGroup;
 			children = (
+				847F2AB11DF1495F00304338 /* Person.h */,
+				847F2AB21DF1495F00304338 /* Person.m */,
 				847F2A991DF148FE00304338 /* weChat */,
 				847F2A981DF148FE00304338 /* Products */,
 			);
@@ -151,6 +156,7 @@
 			files = (
 				847F2AA21DF148FE00304338 /* ViewController.m in Sources */,
 				847F2A9F1DF148FE00304338 /* AppDelegate.m in Sources */,
+				847F2AB31DF1495F00304338 /* Person.m in Sources */,
 				847F2A9C1DF148FE00304338 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
